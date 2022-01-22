@@ -18,15 +18,14 @@ public class Pallindrome_Tester {
 		
 		System.out.println("  -------- TESTING FOR PALINDROMES --------\n");
 		
+		// Create an array of strings to be tested.
 		String[] testArray = {"po p *", "race car", "```aCC*a   ", "not a palindrome"};
 		for (int i = 0; i<testArray.length; i++) {
 			isPalindrome = Test(testArray[i]);
-			if (isPalindrome) {
+			if (isPalindrome) 
 				System.out.println(" Yes, that is a palindrome!");
-			}
-			else {
+			else 
 				System.out.println(" No, that is not a palindrome.");
-			}
 		}
 		
 		System.out.print("\n  Try it.");
